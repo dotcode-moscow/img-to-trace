@@ -1,7 +1,7 @@
 FROM openjdk
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/ImageConverter-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=out/artifacts/ImageConverter_jar/ImageConverter.jar
 
 # cd /opt/app
 WORKDIR /opt/app
